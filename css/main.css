@@ -38,17 +38,17 @@ body {
 
 section {
   background-color: #e5c30a;
-  padding: 1em;
 }
 
 .wrapper {
   margin: 0 auto;
   max-width: 45em;
+  padding: .75em;
 }
 
 section h2 {
   margin: 0;
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 section p {
@@ -57,13 +57,13 @@ section p {
 
 @media only screen and (min-width: 25em) {
 
-section {
-  overflow: hidden;
-}
+  .wrapper {
+    overflow: hidden;
+  }
 
-.img-flex {
-  padding: 0 1em;
-}
+  .img-flex {
+    padding: 0 1em;
+  }
 
 }
 
